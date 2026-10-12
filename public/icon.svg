@@ -1,0 +1,17 @@
+{
+  "name": "GrungeForge",
+  "short_name": "GrungeForge",
+  "description": "Generate original grunge songs with lyrics, tabs, drums, and audio previews.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0d",
+  "theme_color": "#0b0b0d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

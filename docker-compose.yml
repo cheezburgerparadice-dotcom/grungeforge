@@ -1,0 +1,27 @@
+from __future__ import annotations
+
+
+def generate_song_payload(prompt: str, mode: str = 'quick') -> dict:
+    return {
+        'id': 'song_demo_001',
+        'title': 'Ritual Static',
+        'prompt': prompt,
+        'mode': mode,
+        'tempo': 118,
+        'key': 'D minor',
+        'tuning': 'Drop D',
+        'duration_seconds': 150,
+        'lyrics': [
+            'The room goes cold when the lights cut out.',
+            'My mouth tastes like rust and static.',
+            'I keep digging through my own bad weather.',
+            'Trying to cut the ache out of my throat.',
+        ],
+        'chords': ['Dm', 'Bb', 'F', 'C'],
+        'tabs': ['e|---0---|', 'B|---1---|', 'G|---2---|'],
+        'drums': {
+            'pattern': 'kick-snare-kick-snare',
+            'fills': ['crash', 'tom'],
+        },
+        'status': 'ready_for_render',
+    }
